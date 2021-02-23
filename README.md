@@ -9,7 +9,7 @@ XDG base directory specification on *NIX
 
   ```
   git config --global user.name "Saurabh Mishra"
-  git config --global user.email "saurab.mish@gmail.com"
+  git config --global user.email "saurabhm@protonmail.com"
   git config --global pull.rebase false
   git config --global core.autocrlf true
   git config --global core.editor "emacs"
@@ -21,7 +21,7 @@ XDG base directory specification on *NIX
 
 + Generate a new SSH key
 
-  `ssh-keygen -t ed25519 -C "your_email@example.com"`
+  `ssh-keygen -t ed25519 -C "saurabhm@protonmail.com"`
 
 + Save the public / private key pair in ~/.config/ssh
 
