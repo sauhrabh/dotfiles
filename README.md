@@ -80,5 +80,5 @@ XDG base directory specification on *NIX
 
 + Add global options for known hosts and private key
 
-  `git config core.sshCommand "ssh -K -o UserKnownHostsFile=/Users/saurabh/.config/ssh/known_hosts -i /Users/saurabh/.config/ssh/id_ed25519 -F /dev/null"`
+  `git config --global core.sshCommand "ssh -K -o UserKnownHostsFile=/Users/saurabh/.config/ssh/known_hosts -i /Users/saurabh/.config/ssh/id_ed25519 -F /dev/null"`
 
