@@ -93,6 +93,8 @@
 
      *Example* - setting a variable in `.zprofile` and then opening Terminal to see if that variable exists will return the expected result. However, when another shell is opened, that variable won't be accessible anymore.
 
+     A good combination of configuration files could be `.zshenv` in `$HOME` and `.zshrc` in `$XDG_CONFIG_HOME/zsh/.zshrc`
+
    + Non-login Shell
 
      This shell includes terminal emulators on NIX like `gnome-terminal`, etc.
